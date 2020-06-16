@@ -18,7 +18,7 @@ resource "azurerm_resource_group" "demo2" {
 terraform {
     backend "azurerm" {
         resource_group_name ="tfrgtrainer"
-        storage_account_name = "satrainer"
+        storage_account_name = "tfstoragesudha"
         container_name = "con1"
         key = "terraform.tfstate"
     }
